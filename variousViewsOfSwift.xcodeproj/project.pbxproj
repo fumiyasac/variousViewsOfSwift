@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE3190FE1AF92CFA00AA9760 /* iphone4s_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190F21AF92CFA00AA9760 /* iphone4s_1.jpg */; };
+		DE3190FF1AF92CFA00AA9760 /* iphone4s_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190F31AF92CFA00AA9760 /* iphone4s_2.jpg */; };
+		DE3191001AF92CFA00AA9760 /* iphone4s_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190F41AF92CFA00AA9760 /* iphone4s_3.jpg */; };
+		DE3191011AF92CFA00AA9760 /* iphone5_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190F51AF92CFA00AA9760 /* iphone5_1.jpg */; };
+		DE3191021AF92CFA00AA9760 /* iphone5_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190F61AF92CFA00AA9760 /* iphone5_2.jpg */; };
+		DE3191031AF92CFA00AA9760 /* iphone5_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190F71AF92CFA00AA9760 /* iphone5_3.jpg */; };
+		DE3191041AF92CFA00AA9760 /* iphone6_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190F81AF92CFA00AA9760 /* iphone6_1.jpg */; };
+		DE3191051AF92CFA00AA9760 /* iphone6_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190F91AF92CFA00AA9760 /* iphone6_2.jpg */; };
+		DE3191061AF92CFA00AA9760 /* iphone6_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190FA1AF92CFA00AA9760 /* iphone6_3.jpg */; };
+		DE3191071AF92CFA00AA9760 /* iphone6plus_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190FB1AF92CFA00AA9760 /* iphone6plus_1.jpg */; };
+		DE3191081AF92CFA00AA9760 /* iphone6plus_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190FC1AF92CFA00AA9760 /* iphone6plus_2.jpg */; };
+		DE3191091AF92CFA00AA9760 /* iphone6plus_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE3190FD1AF92CFA00AA9760 /* iphone6plus_3.jpg */; };
+		DE65802B1AF5382000017518 /* DeviseSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65802A1AF5382000017518 /* DeviseSize.swift */; };
+		DED9188E1AF8B4330029FD26 /* VolvicPickupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9188C1AF8B4330029FD26 /* VolvicPickupCell.swift */; };
+		DED9188F1AF8B4330029FD26 /* VolvicPickupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED9188D1AF8B4330029FD26 /* VolvicPickupCell.xib */; };
+		DED918931AF8B4600029FD26 /* VolvicShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED918911AF8B4600029FD26 /* VolvicShopCell.swift */; };
+		DED918941AF8B4600029FD26 /* VolvicShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED918921AF8B4600029FD26 /* VolvicShopCell.xib */; };
+		DED918981AF8D1BB0029FD26 /* volvic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DED918961AF8D1BB0029FD26 /* volvic1.jpg */; };
+		DED918991AF8D1BB0029FD26 /* volvic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DED918971AF8D1BB0029FD26 /* volvic2.jpg */; };
+		DEDFAC701AEBA5E000D2DE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFAC6F1AEBA5E000D2DE30 /* AppDelegate.swift */; };
+		DEDFAC721AEBA5E000D2DE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFAC711AEBA5E000D2DE30 /* ViewController.swift */; };
+		DEDFAC751AEBA5E000D2DE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDFAC731AEBA5E000D2DE30 /* Main.storyboard */; };
+		DEDFAC771AEBA5E000D2DE30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDFAC761AEBA5E000D2DE30 /* Images.xcassets */; };
+		DEDFAC7A1AEBA5E000D2DE30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDFAC781AEBA5E000D2DE30 /* LaunchScreen.xib */; };
+		DEDFAC861AEBA5E000D2DE30 /* variousViewsOfSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFAC851AEBA5E000D2DE30 /* variousViewsOfSwiftTests.swift */; };
+		DEDFAC921AEBB35500D2DE30 /* EvianController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFAC911AEBB35500D2DE30 /* EvianController.swift */; };
+		DEDFAC951AEBB38900D2DE30 /* VolvicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFAC941AEBB38900D2DE30 /* VolvicController.swift */; };
+		DEDFAC971AEBB3A600D2DE30 /* ContrexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFAC961AEBB3A600D2DE30 /* ContrexController.swift */; };
+		DEFA36E31AF5619800564152 /* evian2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEFA36E11AF5619800564152 /* evian2.jpg */; };
+		DEFA36E41AF5619800564152 /* evian1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEFA36E21AF5619800564152 /* evian1.jpg */; };
+		DEFA36E81AF561F100564152 /* EvianPetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFA36E61AF561F100564152 /* EvianPetCell.swift */; };
+		DEFA36E91AF561F100564152 /* EvianPetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFA36E71AF561F100564152 /* EvianPetCell.xib */; };
+		DEFA36ED1AF568AD00564152 /* EvianTownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFA36EB1AF568AD00564152 /* EvianTownCell.swift */; };
+		DEFA36EE1AF568AD00564152 /* EvianTownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFA36EC1AF568AD00564152 /* EvianTownCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEDFAC801AEBA5E000D2DE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDFAC621AEBA5DF00D2DE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDFAC691AEBA5DF00D2DE30;
+			remoteInfo = variousViewsOfSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE3190F21AF92CFA00AA9760 /* iphone4s_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone4s_1.jpg; path = variousViewsOfSwift/iphone4s_1.jpg; sourceTree = "<group>"; };
+		DE3190F31AF92CFA00AA9760 /* iphone4s_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone4s_2.jpg; path = variousViewsOfSwift/iphone4s_2.jpg; sourceTree = "<group>"; };
+		DE3190F41AF92CFA00AA9760 /* iphone4s_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone4s_3.jpg; path = variousViewsOfSwift/iphone4s_3.jpg; sourceTree = "<group>"; };
+		DE3190F51AF92CFA00AA9760 /* iphone5_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone5_1.jpg; path = variousViewsOfSwift/iphone5_1.jpg; sourceTree = "<group>"; };
+		DE3190F61AF92CFA00AA9760 /* iphone5_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone5_2.jpg; path = variousViewsOfSwift/iphone5_2.jpg; sourceTree = "<group>"; };
+		DE3190F71AF92CFA00AA9760 /* iphone5_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone5_3.jpg; path = variousViewsOfSwift/iphone5_3.jpg; sourceTree = "<group>"; };
+		DE3190F81AF92CFA00AA9760 /* iphone6_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone6_1.jpg; path = variousViewsOfSwift/iphone6_1.jpg; sourceTree = "<group>"; };
+		DE3190F91AF92CFA00AA9760 /* iphone6_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone6_2.jpg; path = variousViewsOfSwift/iphone6_2.jpg; sourceTree = "<group>"; };
+		DE3190FA1AF92CFA00AA9760 /* iphone6_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone6_3.jpg; path = variousViewsOfSwift/iphone6_3.jpg; sourceTree = "<group>"; };
+		DE3190FB1AF92CFA00AA9760 /* iphone6plus_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone6plus_1.jpg; path = variousViewsOfSwift/iphone6plus_1.jpg; sourceTree = "<group>"; };
+		DE3190FC1AF92CFA00AA9760 /* iphone6plus_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone6plus_2.jpg; path = variousViewsOfSwift/iphone6plus_2.jpg; sourceTree = "<group>"; };
+		DE3190FD1AF92CFA00AA9760 /* iphone6plus_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone6plus_3.jpg; path = variousViewsOfSwift/iphone6plus_3.jpg; sourceTree = "<group>"; };
+		DE65802A1AF5382000017518 /* DeviseSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviseSize.swift; sourceTree = "<group>"; };
+		DED9188C1AF8B4330029FD26 /* VolvicPickupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolvicPickupCell.swift; sourceTree = "<group>"; };
+		DED9188D1AF8B4330029FD26 /* VolvicPickupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VolvicPickupCell.xib; sourceTree = "<group>"; };
+		DED918911AF8B4600029FD26 /* VolvicShopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolvicShopCell.swift; sourceTree = "<group>"; };
+		DED918921AF8B4600029FD26 /* VolvicShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VolvicShopCell.xib; sourceTree = "<group>"; };
+		DED918961AF8D1BB0029FD26 /* volvic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = volvic1.jpg; path = variousViewsOfSwift/volvic1.jpg; sourceTree = "<group>"; };
+		DED918971AF8D1BB0029FD26 /* volvic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = volvic2.jpg; path = variousViewsOfSwift/volvic2.jpg; sourceTree = "<group>"; };
+		DEDFAC6A1AEBA5E000D2DE30 /* variousViewsOfSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = variousViewsOfSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDFAC6E1AEBA5E000D2DE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDFAC6F1AEBA5E000D2DE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEDFAC711AEBA5E000D2DE30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEDFAC741AEBA5E000D2DE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEDFAC761AEBA5E000D2DE30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEDFAC791AEBA5E000D2DE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DEDFAC7F1AEBA5E000D2DE30 /* variousViewsOfSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = variousViewsOfSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDFAC841AEBA5E000D2DE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDFAC851AEBA5E000D2DE30 /* variousViewsOfSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = variousViewsOfSwiftTests.swift; sourceTree = "<group>"; };
+		DEDFAC911AEBB35500D2DE30 /* EvianController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvianController.swift; sourceTree = "<group>"; };
+		DEDFAC941AEBB38900D2DE30 /* VolvicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolvicController.swift; sourceTree = "<group>"; };
+		DEDFAC961AEBB3A600D2DE30 /* ContrexController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContrexController.swift; sourceTree = "<group>"; };
+		DEFA36E11AF5619800564152 /* evian2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = evian2.jpg; path = variousViewsOfSwift/evian2.jpg; sourceTree = "<group>"; };
+		DEFA36E21AF5619800564152 /* evian1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = evian1.jpg; path = variousViewsOfSwift/evian1.jpg; sourceTree = "<group>"; };
+		DEFA36E61AF561F100564152 /* EvianPetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvianPetCell.swift; sourceTree = "<group>"; };
+		DEFA36E71AF561F100564152 /* EvianPetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EvianPetCell.xib; sourceTree = "<group>"; };
+		DEFA36EB1AF568AD00564152 /* EvianTownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvianTownCell.swift; sourceTree = "<group>"; };
+		DEFA36EC1AF568AD00564152 /* EvianTownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EvianTownCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDFAC671AEBA5DF00D2DE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDFAC7C1AEBA5E000D2DE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE3190F11AF92B6700AA9760 /* ContrexImage */ = {
+			isa = PBXGroup;
+			children = (
+				DE3190F21AF92CFA00AA9760 /* iphone4s_1.jpg */,
+				DE3190F31AF92CFA00AA9760 /* iphone4s_2.jpg */,
+				DE3190F41AF92CFA00AA9760 /* iphone4s_3.jpg */,
+				DE3190F51AF92CFA00AA9760 /* iphone5_1.jpg */,
+				DE3190F61AF92CFA00AA9760 /* iphone5_2.jpg */,
+				DE3190F71AF92CFA00AA9760 /* iphone5_3.jpg */,
+				DE3190F81AF92CFA00AA9760 /* iphone6_1.jpg */,
+				DE3190F91AF92CFA00AA9760 /* iphone6_2.jpg */,
+				DE3190FA1AF92CFA00AA9760 /* iphone6_3.jpg */,
+				DE3190FB1AF92CFA00AA9760 /* iphone6plus_1.jpg */,
+				DE3190FC1AF92CFA00AA9760 /* iphone6plus_2.jpg */,
+				DE3190FD1AF92CFA00AA9760 /* iphone6plus_3.jpg */,
+			);
+			name = ContrexImage;
+			sourceTree = "<group>";
+		};
+		DED9188B1AF8B3DB0029FD26 /* VolvicParts */ = {
+			isa = PBXGroup;
+			children = (
+				DED9188C1AF8B4330029FD26 /* VolvicPickupCell.swift */,
+				DED9188D1AF8B4330029FD26 /* VolvicPickupCell.xib */,
+				DED918911AF8B4600029FD26 /* VolvicShopCell.swift */,
+				DED918921AF8B4600029FD26 /* VolvicShopCell.xib */,
+			);
+			name = VolvicParts;
+			sourceTree = "<group>";
+		};
+		DED918951AF8CAF50029FD26 /* VolvicImage */ = {
+			isa = PBXGroup;
+			children = (
+				DED918961AF8D1BB0029FD26 /* volvic1.jpg */,
+				DED918971AF8D1BB0029FD26 /* volvic2.jpg */,
+			);
+			name = VolvicImage;
+			sourceTree = "<group>";
+		};
+		DEDFAC611AEBA5DF00D2DE30 = {
+			isa = PBXGroup;
+			children = (
+				DE3190F11AF92B6700AA9760 /* ContrexImage */,
+				DED918951AF8CAF50029FD26 /* VolvicImage */,
+				DEFA36E51AF561A800564152 /* EvianImage */,
+				DEDFAC6C1AEBA5E000D2DE30 /* variousViewsOfSwift */,
+				DEDFAC821AEBA5E000D2DE30 /* variousViewsOfSwiftTests */,
+				DEDFAC6B1AEBA5E000D2DE30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDFAC6B1AEBA5E000D2DE30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFAC6A1AEBA5E000D2DE30 /* variousViewsOfSwift.app */,
+				DEDFAC7F1AEBA5E000D2DE30 /* variousViewsOfSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDFAC6C1AEBA5E000D2DE30 /* variousViewsOfSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFAC6F1AEBA5E000D2DE30 /* AppDelegate.swift */,
+				DEFA36DC1AF55CEF00564152 /* Library */,
+				DEFA36DB1AF55CD500564152 /* RootView */,
+				DEDFAC931AEBB36200D2DE30 /* ContentsView */,
+				DEDFAC731AEBA5E000D2DE30 /* Main.storyboard */,
+				DEDFAC761AEBA5E000D2DE30 /* Images.xcassets */,
+				DEDFAC781AEBA5E000D2DE30 /* LaunchScreen.xib */,
+				DEDFAC6D1AEBA5E000D2DE30 /* Supporting Files */,
+			);
+			path = variousViewsOfSwift;
+			sourceTree = "<group>";
+		};
+		DEDFAC6D1AEBA5E000D2DE30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFAC6E1AEBA5E000D2DE30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEDFAC821AEBA5E000D2DE30 /* variousViewsOfSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFAC851AEBA5E000D2DE30 /* variousViewsOfSwiftTests.swift */,
+				DEDFAC831AEBA5E000D2DE30 /* Supporting Files */,
+			);
+			path = variousViewsOfSwiftTests;
+			sourceTree = "<group>";
+		};
+		DEDFAC831AEBA5E000D2DE30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFAC841AEBA5E000D2DE30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEDFAC931AEBB36200D2DE30 /* ContentsView */ = {
+			isa = PBXGroup;
+			children = (
+				DEFA36DF1AF55D7800564152 /* Contrex */,
+				DEFA36DD1AF55D2400564152 /* Evian */,
+				DEFA36DE1AF55D3700564152 /* Volvic */,
+			);
+			name = ContentsView;
+			sourceTree = "<group>";
+		};
+		DEFA36DB1AF55CD500564152 /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFAC711AEBA5E000D2DE30 /* ViewController.swift */,
+			);
+			name = RootView;
+			sourceTree = "<group>";
+		};
+		DEFA36DC1AF55CEF00564152 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DE65802A1AF5382000017518 /* DeviseSize.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		DEFA36DD1AF55D2400564152 /* Evian */ = {
+			isa = PBXGroup;
+			children = (
+				DEFA36E01AF560D100564152 /* EvianParts */,
+				DEDFAC911AEBB35500D2DE30 /* EvianController.swift */,
+			);
+			name = Evian;
+			sourceTree = "<group>";
+		};
+		DEFA36DE1AF55D3700564152 /* Volvic */ = {
+			isa = PBXGroup;
+			children = (
+				DED9188B1AF8B3DB0029FD26 /* VolvicParts */,
+				DEDFAC941AEBB38900D2DE30 /* VolvicController.swift */,
+			);
+			name = Volvic;
+			sourceTree = "<group>";
+		};
+		DEFA36DF1AF55D7800564152 /* Contrex */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFAC961AEBB3A600D2DE30 /* ContrexController.swift */,
+			);
+			name = Contrex;
+			sourceTree = "<group>";
+		};
+		DEFA36E01AF560D100564152 /* EvianParts */ = {
+			isa = PBXGroup;
+			children = (
+				DEFA36E61AF561F100564152 /* EvianPetCell.swift */,
+				DEFA36E71AF561F100564152 /* EvianPetCell.xib */,
+				DEFA36EB1AF568AD00564152 /* EvianTownCell.swift */,
+				DEFA36EC1AF568AD00564152 /* EvianTownCell.xib */,
+			);
+			name = EvianParts;
+			sourceTree = "<group>";
+		};
+		DEFA36E51AF561A800564152 /* EvianImage */ = {
+			isa = PBXGroup;
+			children = (
+				DEFA36E11AF5619800564152 /* evian2.jpg */,
+				DEFA36E21AF5619800564152 /* evian1.jpg */,
+			);
+			name = EvianImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDFAC691AEBA5DF00D2DE30 /* variousViewsOfSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDFAC891AEBA5E000D2DE30 /* Build configuration list for PBXNativeTarget "variousViewsOfSwift" */;
+			buildPhases = (
+				DEDFAC661AEBA5DF00D2DE30 /* Sources */,
+				DEDFAC671AEBA5DF00D2DE30 /* Frameworks */,
+				DEDFAC681AEBA5DF00D2DE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = variousViewsOfSwift;
+			productName = variousViewsOfSwift;
+			productReference = DEDFAC6A1AEBA5E000D2DE30 /* variousViewsOfSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEDFAC7E1AEBA5E000D2DE30 /* variousViewsOfSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDFAC8C1AEBA5E000D2DE30 /* Build configuration list for PBXNativeTarget "variousViewsOfSwiftTests" */;
+			buildPhases = (
+				DEDFAC7B1AEBA5E000D2DE30 /* Sources */,
+				DEDFAC7C1AEBA5E000D2DE30 /* Frameworks */,
+				DEDFAC7D1AEBA5E000D2DE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDFAC811AEBA5E000D2DE30 /* PBXTargetDependency */,
+			);
+			name = variousViewsOfSwiftTests;
+			productName = variousViewsOfSwiftTests;
+			productReference = DEDFAC7F1AEBA5E000D2DE30 /* variousViewsOfSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDFAC621AEBA5DF00D2DE30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = just1factory;
+				TargetAttributes = {
+					DEDFAC691AEBA5DF00D2DE30 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					DEDFAC7E1AEBA5E000D2DE30 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DEDFAC691AEBA5DF00D2DE30;
+					};
+				};
+			};
+			buildConfigurationList = DEDFAC651AEBA5DF00D2DE30 /* Build configuration list for PBXProject "variousViewsOfSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEDFAC611AEBA5DF00D2DE30;
+			productRefGroup = DEDFAC6B1AEBA5E000D2DE30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDFAC691AEBA5DF00D2DE30 /* variousViewsOfSwift */,
+				DEDFAC7E1AEBA5E000D2DE30 /* variousViewsOfSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDFAC681AEBA5DF00D2DE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED918941AF8B4600029FD26 /* VolvicShopCell.xib in Resources */,
+				DEFA36E41AF5619800564152 /* evian1.jpg in Resources */,
+				DEFA36E91AF561F100564152 /* EvianPetCell.xib in Resources */,
+				DEDFAC751AEBA5E000D2DE30 /* Main.storyboard in Resources */,
+				DE3191051AF92CFA00AA9760 /* iphone6_2.jpg in Resources */,
+				DEFA36EE1AF568AD00564152 /* EvianTownCell.xib in Resources */,
+				DE3191021AF92CFA00AA9760 /* iphone5_2.jpg in Resources */,
+				DE3191011AF92CFA00AA9760 /* iphone5_1.jpg in Resources */,
+				DED9188F1AF8B4330029FD26 /* VolvicPickupCell.xib in Resources */,
+				DEDFAC7A1AEBA5E000D2DE30 /* LaunchScreen.xib in Resources */,
+				DE3190FF1AF92CFA00AA9760 /* iphone4s_2.jpg in Resources */,
+				DE3191061AF92CFA00AA9760 /* iphone6_3.jpg in Resources */,
+				DED918991AF8D1BB0029FD26 /* volvic2.jpg in Resources */,
+				DE3191041AF92CFA00AA9760 /* iphone6_1.jpg in Resources */,
+				DEFA36E31AF5619800564152 /* evian2.jpg in Resources */,
+				DED918981AF8D1BB0029FD26 /* volvic1.jpg in Resources */,
+				DE3191031AF92CFA00AA9760 /* iphone5_3.jpg in Resources */,
+				DEDFAC771AEBA5E000D2DE30 /* Images.xcassets in Resources */,
+				DE3191071AF92CFA00AA9760 /* iphone6plus_1.jpg in Resources */,
+				DE3190FE1AF92CFA00AA9760 /* iphone4s_1.jpg in Resources */,
+				DE3191091AF92CFA00AA9760 /* iphone6plus_3.jpg in Resources */,
+				DE3191081AF92CFA00AA9760 /* iphone6plus_2.jpg in Resources */,
+				DE3191001AF92CFA00AA9760 /* iphone4s_3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDFAC7D1AEBA5E000D2DE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDFAC661AEBA5DF00D2DE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDFAC951AEBB38900D2DE30 /* VolvicController.swift in Sources */,
+				DEFA36ED1AF568AD00564152 /* EvianTownCell.swift in Sources */,
+				DED918931AF8B4600029FD26 /* VolvicShopCell.swift in Sources */,
+				DEDFAC971AEBB3A600D2DE30 /* ContrexController.swift in Sources */,
+				DE65802B1AF5382000017518 /* DeviseSize.swift in Sources */,
+				DEDFAC721AEBA5E000D2DE30 /* ViewController.swift in Sources */,
+				DEDFAC701AEBA5E000D2DE30 /* AppDelegate.swift in Sources */,
+				DEDFAC921AEBB35500D2DE30 /* EvianController.swift in Sources */,
+				DED9188E1AF8B4330029FD26 /* VolvicPickupCell.swift in Sources */,
+				DEFA36E81AF561F100564152 /* EvianPetCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDFAC7B1AEBA5E000D2DE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDFAC861AEBA5E000D2DE30 /* variousViewsOfSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEDFAC811AEBA5E000D2DE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDFAC691AEBA5DF00D2DE30 /* variousViewsOfSwift */;
+			targetProxy = DEDFAC801AEBA5E000D2DE30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEDFAC731AEBA5E000D2DE30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDFAC741AEBA5E000D2DE30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEDFAC781AEBA5E000D2DE30 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDFAC791AEBA5E000D2DE30 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEDFAC871AEBA5E000D2DE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEDFAC881AEBA5E000D2DE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEDFAC8A1AEBA5E000D2DE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = variousViewsOfSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEDFAC8B1AEBA5E000D2DE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = variousViewsOfSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEDFAC8D1AEBA5E000D2DE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = variousViewsOfSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/variousViewsOfSwift.app/variousViewsOfSwift";
+			};
+			name = Debug;
+		};
+		DEDFAC8E1AEBA5E000D2DE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = variousViewsOfSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/variousViewsOfSwift.app/variousViewsOfSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDFAC651AEBA5DF00D2DE30 /* Build configuration list for PBXProject "variousViewsOfSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDFAC871AEBA5E000D2DE30 /* Debug */,
+				DEDFAC881AEBA5E000D2DE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDFAC891AEBA5E000D2DE30 /* Build configuration list for PBXNativeTarget "variousViewsOfSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDFAC8A1AEBA5E000D2DE30 /* Debug */,
+				DEDFAC8B1AEBA5E000D2DE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDFAC8C1AEBA5E000D2DE30 /* Build configuration list for PBXNativeTarget "variousViewsOfSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDFAC8D1AEBA5E000D2DE30 /* Debug */,
+				DEDFAC8E1AEBA5E000D2DE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEDFAC621AEBA5DF00D2DE30 /* Project object */;
+}
