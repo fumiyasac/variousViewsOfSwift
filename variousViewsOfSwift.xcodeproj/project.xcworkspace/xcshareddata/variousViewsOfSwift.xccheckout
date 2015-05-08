@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>81BFFF26-8010-48C3-83FE-8D8732B16E65</string>
+	<key>IDESourceControlProjectName</key>
+	<string>variousViewsOfSwift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>122BBFEA31192E6AC7C5CE18F749D6C33BC4EF51</key>
+		<string>github.com:fumiyasac/variousViewsOfSwift.git</string>
+		<key>386B0F3D5C628AA7240533F19DFB0971C6D5FAC5</key>
+		<string>github.com:fumiyasac/SingleMemoViewSample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>variousViewsOfSwift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>122BBFEA31192E6AC7C5CE18F749D6C33BC4EF51</key>
+		<string>../..</string>
+		<key>386B0F3D5C628AA7240533F19DFB0971C6D5FAC5</key>
+		<string>../../../singleMemoViewSample</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:fumiyasac/variousViewsOfSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>122BBFEA31192E6AC7C5CE18F749D6C33BC4EF51</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>386B0F3D5C628AA7240533F19DFB0971C6D5FAC5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>singleMemoViewSample</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>122BBFEA31192E6AC7C5CE18F749D6C33BC4EF51</string>
+			<key>IDESourceControlWCCName</key>
+			<string>variousViewsOfSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

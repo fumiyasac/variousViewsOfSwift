@@ -215,6 +215,20 @@
             </objects>
             <point key="canvasLocation" x="587" y="1111"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="E7F-4J-GYf">
+            <objects>
+                <viewController id="1Va-pg-nI6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RI7-Rk-rXr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zZ2-Gg-WKi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-227" y="285"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

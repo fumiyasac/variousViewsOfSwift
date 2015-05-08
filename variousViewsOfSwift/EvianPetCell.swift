@@ -25,8 +25,6 @@ class EvianPetCell: UITableViewCell {
         let screenWidth  = DeviseSize.screenWidth()
         let screenHeight = DeviseSize.screenHeight()
         
-        var detailTextWidth: Int!
-        
         //表示用ラベル・画像・セルのサイズフィックスをする（CGRectMakeで要素サイズの再調整）
         //※この方法はAutoLayoutが困難な場合の最終手段
         self.frame = CGRectMake(0, 0, CGFloat(screenWidth), 180);

@@ -109,7 +109,7 @@ class ContrexController: UIViewController, UIScrollViewDelegate {
         }
     }
     
-    //スクロールが終了した際に行われる処理
+    //スクロールを検知した際に行われる処理
     func scrollViewDidScroll(scrollview: UIScrollView) {
         
         //画像の位置から画像の番号を判別する
