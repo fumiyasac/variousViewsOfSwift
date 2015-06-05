@@ -113,7 +113,7 @@ class ContrexController: UIViewController, UIScrollViewDelegate {
     func scrollViewDidScroll(scrollview: UIScrollView) {
         
         //画像の位置から画像の番号を判別する
-        var pageHeight : CGFloat = self.imageScrollView.frame.size.height - 110
+        var pageHeight : CGFloat = self.imageScrollView.frame.size.height
         var fractionalPage : Double = Double(self.imageScrollView.contentOffset.y / pageHeight)
         var page : NSInteger = lround(fractionalPage)
         self.imagePageControl.currentPage = page;
