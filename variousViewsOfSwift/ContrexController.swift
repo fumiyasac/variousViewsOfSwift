@@ -59,15 +59,15 @@ class ContrexController: UIViewController, UIScrollViewDelegate {
         self.imageScrollView.scrollsToTop = false
         
         //UIImageViewを3つ作成してScrollViewへ追加
-        var firstImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: deviceImageWidth, height: deviceImageHeight))
+        let firstImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: deviceImageWidth, height: deviceImageHeight))
         firstImageView.image = image1
         self.imageScrollView.addSubview(firstImageView)
         
-        var secondImageView = UIImageView(frame: CGRect(x: 0, y: deviceImageHeight, width: deviceImageWidth, height: deviceImageHeight))
+        let secondImageView = UIImageView(frame: CGRect(x: 0, y: deviceImageHeight, width: deviceImageWidth, height: deviceImageHeight))
         secondImageView.image = image2
         self.imageScrollView.addSubview(secondImageView)
         
-        var thirdImageView = UIImageView(frame: CGRect(x: 0, y: deviceImageHeight * 2, width: deviceImageWidth, height: deviceImageHeight))
+        let thirdImageView = UIImageView(frame: CGRect(x: 0, y: deviceImageHeight * 2, width: deviceImageWidth, height: deviceImageHeight))
         thirdImageView.image = image3
         self.imageScrollView.addSubview(thirdImageView)
     }
@@ -113,9 +113,9 @@ class ContrexController: UIViewController, UIScrollViewDelegate {
     func scrollViewDidScroll(scrollview: UIScrollView) {
         
         //画像の位置から画像の番号を判別する
-        var pageHeight : CGFloat = self.imageScrollView.frame.size.height
-        var fractionalPage : Double = Double(self.imageScrollView.contentOffset.y / pageHeight)
-        var page : NSInteger = lround(fractionalPage)
+        let pageHeight : CGFloat = self.imageScrollView.frame.size.height
+        let fractionalPage : Double = Double(self.imageScrollView.contentOffset.y / pageHeight)
+        let page : NSInteger = lround(fractionalPage)
         self.imagePageControl.currentPage = page;
     }
 

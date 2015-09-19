@@ -28,9 +28,9 @@ class VolvicController: UIViewController, UICollectionViewDelegate, UICollection
         self.volvicCollectionView.dataSource = self;
         
         //Xibのクラスを読み込む宣言を行う
-        var nibOne:UINib = UINib(nibName: "VolvicPickupCell", bundle: nil)
+        let nibOne:UINib = UINib(nibName: "VolvicPickupCell", bundle: nil)
         self.volvicCollectionView.registerNib(nibOne, forCellWithReuseIdentifier: "VolvicPickupCell")
-        var nibTwo:UINib = UINib(nibName: "VolvicShopCell", bundle: nil)
+        let nibTwo:UINib = UINib(nibName: "VolvicShopCell", bundle: nil)
         self.volvicCollectionView.registerNib(nibTwo, forCellWithReuseIdentifier: "VolvicShopCell")
     }
 
@@ -78,7 +78,7 @@ class VolvicController: UIViewController, UICollectionViewDelegate, UICollection
         
         if (indexPath.section == 0) {
             
-            var cellOne = collectionView.dequeueReusableCellWithReuseIdentifier("VolvicPickupCell", forIndexPath: indexPath) as? VolvicPickupCell;
+            let cellOne = collectionView.dequeueReusableCellWithReuseIdentifier("VolvicPickupCell", forIndexPath: indexPath) as? VolvicPickupCell;
             
             //テキスト・画像等の表示
             let petImagePath = UIImage(named: "volvic1.jpg")
@@ -91,7 +91,7 @@ class VolvicController: UIViewController, UICollectionViewDelegate, UICollection
             
         } else if (indexPath.section == 1) {
             
-            var cellTwo = collectionView.dequeueReusableCellWithReuseIdentifier("VolvicShopCell", forIndexPath: indexPath) as? VolvicShopCell;
+            let cellTwo = collectionView.dequeueReusableCellWithReuseIdentifier("VolvicShopCell", forIndexPath: indexPath) as? VolvicShopCell;
             
             //テキスト・画像等の表示
             let shopImagePath = UIImage(named: "volvic2.jpg")

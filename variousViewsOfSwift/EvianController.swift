@@ -32,9 +32,9 @@ class EvianController: UIViewController, UITableViewDelegate, UITableViewDataSou
         self.evianTableView.dataSource = self
         
         //Xibのクラスを読み込む宣言を行う
-        var nibOne:UINib = UINib(nibName: "EvianPetCell", bundle: nil)
+        let nibOne:UINib = UINib(nibName: "EvianPetCell", bundle: nil)
         self.evianTableView.registerNib(nibOne, forCellReuseIdentifier: "EvianPetCell")
-        var nibTwo:UINib = UINib(nibName: "EvianTownCell", bundle: nil)
+        let nibTwo:UINib = UINib(nibName: "EvianTownCell", bundle: nil)
         self.evianTableView.registerNib(nibTwo, forCellReuseIdentifier: "EvianTownCell")
     }
 
@@ -69,7 +69,7 @@ class EvianController: UIViewController, UITableViewDelegate, UITableViewDataSou
         if (indexPath.section == 0) {
             
             //Xibファイルを元にデータを作成する
-            var cellOne = tableView.dequeueReusableCellWithIdentifier("EvianPetCell") as? EvianPetCell;
+            let cellOne = tableView.dequeueReusableCellWithIdentifier("EvianPetCell") as? EvianPetCell;
             
             //テキスト・画像等の表示
             cellOne!.petTitle?.text = "Evian 500ml Set"
@@ -88,7 +88,7 @@ class EvianController: UIViewController, UITableViewDelegate, UITableViewDataSou
         } else if (indexPath.section == 1) {
             
             //Xibファイルを元にデータを作成する
-            var cellTwo = tableView.dequeueReusableCellWithIdentifier("EvianTownCell") as? EvianTownCell;
+            let cellTwo = tableView.dequeueReusableCellWithIdentifier("EvianTownCell") as? EvianTownCell;
             
             //テキスト・画像等の表示
             let townImagePath = UIImage(named: "evian2.jpg")

@@ -101,7 +101,7 @@ class ViewController: UIViewController {
     func switchingWholeContainer(displayNumber: Int) {
         
         //アニメーション位置を決める
-        UIView.animateWithDuration(0.2, delay: 0, options: nil, animations: {
+        UIView.animateWithDuration(0.2, delay: 0, options: [], animations: {
             
             self.switchingEnabledButton(displayNumber)
             self.switchingDisplayContainer(displayNumber)
